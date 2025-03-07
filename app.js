@@ -31,9 +31,9 @@ function verifyGuess() {
         document.getElementById("guess").setAttribute("disabled", true);
         console.log(numbersPool);
     } else if (guess > secretNumber) {
-        changeContent("p", "The secret Number is less than " + guess);
+        changeContent("p", "The secret number is less than " + guess);
     } else {
-        changeContent("p", "The secret Number is greater than " + guess);
+        changeContent("p", "The secret number is greater than " + guess);
     }
 
     attempts ++;
